@@ -10,18 +10,15 @@ public class P1{
 
         System.out.println("Enter 10 integers:");
 
-        // Taking input for each element of the array
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scanner.nextInt();
         }
 
-        // Printing the entire array
         System.out.println("Array elements:");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
 
-        // Don't forget to close the scanner
         scanner.close();
     }
 }
