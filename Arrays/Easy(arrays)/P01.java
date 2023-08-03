@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class P1{
+public class P01{
     public static void main(String[] args) {
         int[] arr = new int[10];
         Scanner scanner = new Scanner(System.in);

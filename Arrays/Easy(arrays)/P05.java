@@ -90,7 +90,7 @@ import java.util.Scanner;
 
 // // 3) Merge Sort
 
-public class P5 {
+public class P05 {
 
 public static void main(String args[]){
 
