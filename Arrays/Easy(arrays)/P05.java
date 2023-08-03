@@ -7,9 +7,6 @@
 
 // Here i have sorted using different sorting algorithms 1)Bubble 2)Insertion 3)Merge 4)Selection
 
-
-
-
 // 1) Bubble Sort  : Time complexity: O(n^2) , Spcae: 
 import java.util.Scanner;
 
@@ -48,11 +45,7 @@ import java.util.Scanner;
 
 // }
 
-
-
-
 // 2) Insertion Sort
-
 
 // public class P5 {
 
@@ -87,12 +80,11 @@ import java.util.Scanner;
 
 // }
 
-
 // // 3) Merge Sort
 
 public class P05 {
 
-public static void main(String args[]){
+    public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
         sc.close();
@@ -100,43 +92,37 @@ public static void main(String args[]){
         int n = sc.nextInt();
         int arr[] = new int[n];
 
-        for(int i = 0;i<n;i++){
+        for (int i = 0; i < n; i++) {
 
             arr[i] = sc.nextInt();
         }
         sc.close();
-        int l = arr[0] , h= arr[n-1];
-        Mergesort(arr,l,h);
+        int l = arr[0], h = arr[n - 1];
+        Mergesort(arr, l, h);
     }
 
+    public static void Mergesort(int arr[], int l, int h) {
 
-      public static void Mergesort(int arr[],int l,int h){
+        int mid = (l + h) / 2;
+        Mergesort(arr, l, mid);
+        Mergesort(arr, mid + 1, h);
+        Merge(arr, l, mid, h);
 
-        int mid = (l+h)/2;
-        Mergesort(arr,l,mid);
-        Mergesort(arr,mid+1,h);
-        Merge(arr,l,mid,h);
+    }
 
-        }
-
-        public static void Merge(int arr[],int l,int mid ,int l){
-
-        }
-
-
-
-
-        for(int k = 0;k<n;k++){
-
-            System.out.println(arr[k]);
-        }
-
+    public static void Merge(int arr[],int l,int mid ,int l){
 
         }
 
+    for(
 
+    int k = 0;k<n;k++)
+    {
 
+        System.out.println(arr[k]);
+    }
 
+}
 
 // 4) Selection Sort
 
