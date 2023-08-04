@@ -31,3 +31,14 @@ class P07 {
 
     }
 }
+
+/*
+ * Approach
+ * 
+ * Brute: Compared element with the key and returned count
+ * 
+ * Optimal:
+ * 
+ * More optimal:
+ * 
+ */
