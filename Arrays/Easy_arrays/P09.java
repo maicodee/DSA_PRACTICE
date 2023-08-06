@@ -28,23 +28,20 @@ public class P09 {
 
         for (int i = 1; i < n; i++) {
 
-            if(arr[i] < min){
+            if (arr[i] < min) {
                 min = arr[i];
             }
         }
 
-         for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++) {
 
-            if(arr[i] > max){
+            if (arr[i] > max) {
                 max = arr[i];
             }
         }
 
-
-        int Range = max-min; 
-        System.out.println("Range " +Range);
-
-
+        int Range = max - min;
+        System.out.println("Range " + Range);
 
     }
 }
