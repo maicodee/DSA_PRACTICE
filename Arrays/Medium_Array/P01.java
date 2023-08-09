@@ -1,3 +1,15 @@
+// 1. Find the Union and Intersection of the two sorted arrays
+// Input:
+// 5 3
+// 1 2 3 4 5
+// 1 2 3
+// Output: 
+// 5
+// Explanation: 
+// 1, 2, 3, 4 and 5 are the
+// elements which comes in the union set
+// of both arrays. So count is 5.
+
 package Arrays.Medium_Array;
 import java.util.Scanner;
 public class P01 {

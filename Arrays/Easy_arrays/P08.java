@@ -22,6 +22,7 @@ class P08 {
 
             arr[i] = sc.nextInt();
         }
+        sc.close();
         int high = arr.length - 1;
 
         while (mid <= high) {

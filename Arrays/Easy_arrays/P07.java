@@ -19,6 +19,7 @@ class P07 {
         for (int i = 0; i < length; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
 
         int count = 0;
         for (int j = 0; j < length; j++) {
