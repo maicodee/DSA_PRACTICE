@@ -16,7 +16,18 @@ public class P02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter String");
-        String string = sc.nextLine();
+        String string = sc.nextLine().toLowerCase(); //// Convert input to lowercase
+        int arr[] = new int[256];
+
+        for(char ch: string.toCharArray()){
+            arr[ch]++;
+        }
+
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]>0){
+                System.out.println("Occurance of   "+  (char)i + "  was  " + arr[i]);
+            }
+        }
         
         sc.close();
 
