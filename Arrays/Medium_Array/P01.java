@@ -29,6 +29,14 @@ public class P01 {
         for (int i = 0; i < a2; i++) {
             arr2[i] = sc.nextInt();
         }
+        int count = arr1.length;
+
+        for(int i=0;i<arr1.length;i++){
+            for(int j=0;j<arr2.length;j++){
+
+
+            }
+        }
 
         sc.close();
 

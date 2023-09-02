@@ -1,3 +1,5 @@
+//Write a code to check if a number is present in a string or not
+
 import java.util.Scanner;
 
 public class P02 {

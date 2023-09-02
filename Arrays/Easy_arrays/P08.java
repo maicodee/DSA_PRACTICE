@@ -34,7 +34,7 @@ class P08 {
                 mid++;
             } else if (arr[mid] == 1) {
                 mid++;
-            } else { // arr[mid] == 2
+            } else { 
                 int temp = arr[mid];
                 arr[mid] = arr[high];
                 arr[high] = temp;
