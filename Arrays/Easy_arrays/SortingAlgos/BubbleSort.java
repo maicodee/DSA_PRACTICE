@@ -1,16 +1,8 @@
-// Write a program to sort the given array.
-// Sample input : 5
-//                4 5 1 2 9
-// Sample O/p:  1 2 4 5 9
-
-// Here, 6 is the size of array and then the elements are input by the user
-
-// Here i have sorted using different sorting algorithms 1)Bubble 2)Insertion 3)Merge 4)Selection
-
 // 1) Bubble Sort  : Time complexity: O(n^2) , Spcae: 
-import java.util.Scanner;
 
-public class P05 {
+package SortingAlgos;
+import java.util.Scanner;
+public class BubbleSort {
 
     public static void main(String args[]) {
 
@@ -44,3 +36,4 @@ public class P05 {
     }
 
 }
+
