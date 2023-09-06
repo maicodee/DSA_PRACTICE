@@ -11,7 +11,9 @@
 // of both arrays. So count is 5.
 
 package Arrays.Medium_Array;
+
 import java.util.Scanner;
+
 public class P01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -31,15 +33,13 @@ public class P01 {
         }
         int count = arr1.length;
 
-        for(int i=0;i<arr1.length;i++){
-            for(int j=0;j<arr2.length;j++){
-
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; j < arr2.length; j++) {
 
             }
         }
 
         sc.close();
 
-   
     }
 }

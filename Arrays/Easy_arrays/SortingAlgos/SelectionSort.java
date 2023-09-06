@@ -1,14 +1,16 @@
 package SortingAlgos;
+
 import java.util.Scanner;
+
 public class SelectionSort {
 
-    public static void selectionsort(int arr[] ,int n){
+    public static void selectionsort(int arr[], int n) {
 
-        for(int i=0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             int smallest = i;
-            for(int j=i+1;j<n;j++){
+            for (int j = i + 1; j < n; j++) {
 
-                if(arr[smallest]>arr[j]){
+                if (arr[smallest] > arr[j]) {
                     smallest = j;
                 }
             }
@@ -21,22 +23,22 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        
+
         Scanner sc = new Scanner(System.in);
 
         int k = sc.nextInt();
         int arr[] = new int[k];
-        for(int i =0;i<k;i++){
+        for (int i = 0; i < k; i++) {
 
             arr[i] = sc.nextInt();
 
         }
-        
+
         int n = arr.length;
         sc.close();
-        selectionsort(arr,n);
+        selectionsort(arr, n);
 
-        for(int j =0;j<k;j++){
+        for (int j = 0; j < k; j++) {
             System.out.print(arr[j] + " ");
         }
     }

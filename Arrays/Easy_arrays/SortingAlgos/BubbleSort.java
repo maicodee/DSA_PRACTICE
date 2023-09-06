@@ -1,7 +1,9 @@
 // 1) Bubble Sort  : Time complexity: O(n^2) , Spcae: 
 
 package SortingAlgos;
+
 import java.util.Scanner;
+
 public class BubbleSort {
 
     public static void main(String args[]) {
@@ -36,4 +38,3 @@ public class BubbleSort {
     }
 
 }
-
