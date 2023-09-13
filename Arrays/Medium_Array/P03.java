@@ -7,14 +7,13 @@
 // Output: 4
 
 package Arrays.Medium_Array;
-
+import java.util.Scanner;
 public class P03 {
-    public static int findMissingNumber(int[] nums) {
-        int n = nums.length + 1; 
-        int totalSum = (n * (n + 1)) / 2; 
+    public static int findMissingNumber(int N, int[] A) {
+        int totalSum = (N * (N + 1)) / 2; 
 
         int sum = 0;
-        for (int num : nums) {
+        for (int num : A) {
             sum += num; 
         }
 
@@ -22,9 +21,19 @@ public class P03 {
     }
 
     public static void main(String[] args) {
-        int N = 5;
-        int[] A = {1, 2, 3, 5};
-        int missingNumber = findMissingNumber(A);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the value of N: ");
+        int N = scanner.nextInt();
+
+        int[] A = new int[N - 1];
+        System.out.println("Enter the array of " + (N - 1) + " integers:");
+        for (int i = 0; i < N - 1; i++) {
+            A[i] = scanner.nextInt();
+        }
+
+        int missingNumber = findMissingNumber(N, A);
         System.out.println("Missing integer: " + missingNumber);
+
+        scanner.close();
     }
 }
