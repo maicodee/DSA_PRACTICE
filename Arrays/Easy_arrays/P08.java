@@ -3,7 +3,7 @@
 // Here, 9 is the size of array input by the user followed by the elements input
 
 // i/p : 9
-//              0 0 1 1 1 0 2 2 1
+//       0 0 1 1 1 0 2 2 1
 
 // o/p : 0 0 0 1 1 1 1 2 2 
 
