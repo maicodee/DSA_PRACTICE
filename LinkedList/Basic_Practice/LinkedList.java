@@ -106,6 +106,11 @@ class LinkedList {
         length++;
     }
 
+    // Method to Remove last node
+    public void removeLast(){
+        
+    }
+
     public static void main(String[] args) {
 
         LinkedList myLinkedList = new LinkedList(4);

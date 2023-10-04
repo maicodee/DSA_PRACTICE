@@ -13,13 +13,12 @@ public class P05 {
         char arr[] = new char[n];
         arr = str.toCharArray();
 
-        for(int i = 0; i<n/2 ;i++){
+        for (int i = 0; i < n / 2; i++) {
             char temp = arr[i];
-            arr[i] = arr[n-1-i];
-            arr[n-1-i] = temp;
+            arr[i] = arr[n - 1 - i];
+            arr[n - 1 - i] = temp;
 
-
-          // other approach  
+            // other approach
             // String nstr = "";
             // char ch;
             // ch= str.charAt(i); //extracts each character
