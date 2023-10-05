@@ -10,24 +10,33 @@ public class P06 {
         Scanner sc = new Scanner(System.in);
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
-        int n1 = str1.length();
-        int n2 = str2.length();
+
 
     
-        solution.anagram(str1, str2, n1, n2);
+        solution.anagram(str1, str2);
 
         sc.close();
     }
 }
 
 class solution {
-    public static int anagram(String str1, String str2, int n1, int n2) {
+    // public static int anagram(String str1, String str2, int n1, int n2) {
+        public static int anagram(String str1, String str2) {
         char arr1[] = str1.toCharArray();
         char arr2[] = str2.toCharArray();
+
+        int n1 = str1.length();
+        int n2 = str2.length();
+
         if (n1 != n2) {
             return -1;
-        }
         
+        }
+        else{
+
+            
+
+        }
 
     }
 }
