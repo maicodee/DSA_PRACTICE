@@ -2,6 +2,7 @@
 
 package String.Easy_string;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class P06 {
@@ -11,8 +12,6 @@ public class P06 {
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
 
-
-    
         solution.anagram(str1, str2);
 
         sc.close();
@@ -21,21 +20,25 @@ public class P06 {
 
 class solution {
     // public static int anagram(String str1, String str2, int n1, int n2) {
-        public static int anagram(String str1, String str2) {
+    public static int anagram(String str1, String str2) {
         char arr1[] = str1.toCharArray();
         char arr2[] = str2.toCharArray();
 
         int n1 = str1.length();
         int n2 = str2.length();
 
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+
+
         if (n1 != n2) {
             return -1;
-        
-        }
-        else{
 
+        } else {
             
 
+
+            return 1;
         }
 
     }
