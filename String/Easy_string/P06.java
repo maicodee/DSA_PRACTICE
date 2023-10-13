@@ -13,7 +13,13 @@ public class P06 {
         String str2 = sc.nextLine();
 
         solution.anagram(str1, str2);
+        int result = solution.anagram(str1, str2);
 
+        if (result == 1) {
+            System.out.println("The strings are anagrams.");
+        } else if (result == -1) {
+            System.out.println("The strings are not anagrams.");
+        }
         sc.close();
     }
 }
@@ -24,19 +30,23 @@ class solution {
         char arr1[] = str1.toCharArray();
         char arr2[] = str2.toCharArray();
 
-        int n1 = str1.length();
-        int n2 = str2.length();
+        int n1 = arr1.length;
+        int n2 = arr2.length;
 
         Arrays.sort(arr1);
         Arrays.sort(arr2);
-
 
         if (n1 != n2) {
             return -1;
 
         } else {
-            
+            for (int i = 0; i < n1; i++) {
 
+                if (arr1[i] != arr2[i]) {
+                    return -1;
+                }
+
+            }
 
             return 1;
         }
