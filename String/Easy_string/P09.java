@@ -14,12 +14,28 @@ public class P09 {
         char[] arr1 = str1.toCharArray();
         int n = arr1.length;
 
-        //This below code will reverse each chacter of the line 
-        // for (int i = n-1; i > 0; i--) {
-        //     System.out.print(arr1[i]);
-        // }
+        // This below code will reverse each chacter of the line 
+        for (int i = n-1; i > 0; i--) {
+            System.out.print(arr1[i]);
+        }
 
         //This below code will reverse each "word" of the line
+
+        //  String p ="";
+        // String str ="";
+        // for(int i=S.length()-1 ;i>=0;i--){
+            
+        //     if(S.charAt(i)!='.'){
+        //         p = S.charAt(i)+p;
+        //     }
+        //     else{
+        //         str = str+p+".";
+        //         p="";
+        //     }
+            
+        // }
+        // str=str+p;
+        // return str;
     }
 
 }
