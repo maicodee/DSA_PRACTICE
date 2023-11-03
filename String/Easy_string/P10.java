@@ -25,6 +25,7 @@ public class P10 {
         } else {
             System.out.println("False");
         }
+        sc.close();
     }
 }
 
@@ -41,4 +42,25 @@ public class P10 {
 // }
 
 // return true;
+// }
+
+// Using StringBuilder class
+
+//  StringBuilder str = new StringBuilder("vaishnavi");
+
+//  for(int i =0; i<str.length/2; i++ ){
+//     int front = i;
+//     int back = str.length()-i-1;
+
+//     char frontchar = str.charAt(front);
+//     char backchar = str.charAt(back);
+
+
+//     str.setCharAt(front, backchar);
+//     str.setCharAt(back, frontchar);
+
+//check if both strings are equal
+
+// System.out.println(str);
+
 // }

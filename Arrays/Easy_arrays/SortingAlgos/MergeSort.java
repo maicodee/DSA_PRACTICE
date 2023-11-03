@@ -42,8 +42,8 @@ public class MergeSort {
             return;
         }
 
-        // int mid = si + (ei -si) / 2 : in this method time complexity is less or int
-        // mid = (si + ei) / 2 : in this case sometimes timecomplexity is more
+        // int mid = si + (ei -si) / 2 : in this method time complexity is less
+        // mid = (si + ei) / 2 : in this case sometimes time complexity is more
         int mid = si + (ei - si) / 2;
         divide(arr, si, mid);
         divide(arr, mid + 1, ei);
